@@ -69,7 +69,7 @@ public class SubnetManager implements SubnetService {
         KryoNamespace.Builder serializer = KryoNamespace.newBuilder()
                 .register(MultiValuedTimestamp.class);
         subnetStore = storageService
-                .<SubnetId, Subnet> eventuallyConsistentMapBuilder()
+                .<SubnetId, Subnet>eventuallyConsistentMapBuilder()
                 .withName("all_subnet").withSerializer(serializer)
                 .withTimestampProvider((k, v) -> new WallClockTimestamp())
                 .build();

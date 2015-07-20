@@ -54,7 +54,6 @@ public final class AllowedAddressPair {
         return mac;
     }
 
-    
 
     /**
      * Creates a allowedAddressPair using the supplied ipAddress &amp;
