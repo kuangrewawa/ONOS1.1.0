@@ -35,8 +35,7 @@ public final class SecurityGroup {
         return securityGroup;
     }
 
-    // Public construction is prohibited
-    private SecurityGroup(String securityGroup) {
+    public SecurityGroup(String securityGroup) {
         checkNotNull(securityGroup, "securityGroup is not null");
         this.securityGroup = securityGroup;
     }

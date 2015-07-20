@@ -93,11 +93,7 @@ public class SubnetManager implements SubnetService {
     @Override
     public Subnet getSubnet(SubnetId subnetId) {
         checkNotNull(subnetId, SUBNET_ID_NULL);
-        if (exists(subnetId)) {
             return subnetStore.get(subnetId);
-        } else {
-            return null;
-        }
     }
 
     @Override
