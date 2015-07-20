@@ -113,7 +113,7 @@ public class VirtualPortManager implements VirtualPortService {
             return null;
         }
         for (VirtualPort  vPort : vPortWithTenantId) {
-            if (!vPort.networkId().equals(tenantId)) {
+            if (!vPort.tenantId().equals(tenantId)) {
                 vPortWithTenantId.remove(vPort);
             }
         }
@@ -128,7 +128,7 @@ public class VirtualPortManager implements VirtualPortService {
             return null;
         }
         for (VirtualPort  vPort : vPortWithDeviceId) {
-            if (!vPort.networkId().equals(deviceId)) {
+            if (!vPort.deviceId().equals(deviceId)) {
                 vPortWithDeviceId.remove(vPort);
             }
         }

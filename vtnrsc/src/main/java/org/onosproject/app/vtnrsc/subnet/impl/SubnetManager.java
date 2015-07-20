@@ -32,6 +32,7 @@ import org.apache.felix.scr.annotations.Service;
 import org.onlab.util.KryoNamespace;
 import org.onosproject.app.vtnrsc.Subnet;
 import org.onosproject.app.vtnrsc.SubnetId;
+import org.onosproject.app.vtnrsc.TenantNetworkId;
 import org.onosproject.app.vtnrsc.subnet.SubnetService;
 import org.onosproject.app.vtnrsc.tenantnetwork.TenantNetworkService;
 import org.onosproject.store.service.EventuallyConsistentMap;
@@ -68,7 +69,7 @@ public class SubnetManager implements SubnetService {
         KryoNamespace.Builder serializer = KryoNamespace.newBuilder()
                 .register(MultiValuedTimestamp.class);
         subnetStore = storageService
-                .<SubnetId, Subnet>eventuallyConsistentMapBuilder()
+                .<SubnetId, Subnet> eventuallyConsistentMapBuilder()
                 .withName("all_subnet").withSerializer(serializer)
                 .withTimestampProvider((k, v) -> new WallClockTimestamp())
                 .build();
@@ -108,10 +109,10 @@ public class SubnetManager implements SubnetService {
     @Override
     public boolean createSubnets(Iterable<Subnet> subnets) {
         for (Subnet subnet : subnets) {
-            // if (!tenantNetworkService.exists(TenantNetworkId.networkId(subnet
-            // .networkId().toString()))) {
-            // return false;
-            // }
+            if (!tenantNetworkService.exists(TenantNetworkId.networkId(subnet
+                    .networkId().toString()))) {
+                return false;
+            }
             subnetStore.put(subnet.id(), subnet);
         }
         return true;
@@ -121,9 +122,7 @@ public class SubnetManager implements SubnetService {
     public boolean updateSubnets(Iterable<Subnet> subnets) {
         if (subnets != null) {
             for (Subnet subnet : subnets) {
-                if (exists(subnet.id())) {
-                    subnetStore.put(subnet.id(), subnet);
-                }
+                subnetStore.put(subnet.id(), subnet);
             }
         }
         return true;
@@ -133,9 +132,7 @@ public class SubnetManager implements SubnetService {
     public boolean removeSubnets(Iterable<SubnetId> subnetIds) {
         if (subnetIds != null) {
             for (SubnetId subnetId : subnetIds) {
-                if (exists(subnetId)) {
-                    subnetStore.remove(subnetId);
-                }
+                subnetStore.remove(subnetId);
             }
         }
         return true;

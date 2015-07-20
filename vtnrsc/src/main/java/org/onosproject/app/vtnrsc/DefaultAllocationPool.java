@@ -16,7 +16,7 @@
 package org.onosproject.app.vtnrsc;
 
 import static com.google.common.base.MoreObjects.toStringHelper;
-
+import static com.google.common.base.Preconditions.checkNotNull;
 import java.util.Objects;
 
 import org.onlab.packet.IpAddress;
@@ -31,6 +31,8 @@ public final class DefaultAllocationPool implements AllocationPool {
     private final IpAddress endIP;
 
     public DefaultAllocationPool(IpAddress startIP, IpAddress endIP) {
+        checkNotNull(startIP, "startIP is not null");
+        checkNotNull(endIP, "endIP is not null");
         this.startIP = startIP;
         this.endIP = endIP;
     }

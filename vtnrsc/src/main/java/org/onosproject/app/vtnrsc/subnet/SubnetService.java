@@ -33,7 +33,7 @@ public interface SubnetService {
     /**
      * Returns a collection of the currently known subnets.
      *
-     * @return collection of subnets
+     * @return iterable collection of subnets
      */
     Iterable<Subnet> getSubnets();
 
@@ -47,8 +47,8 @@ public interface SubnetService {
     /**
      * Creates new subnets.
      *
-     * @param subnets the collection of subnets
-     * @return false if the identifier subnet has been created
+     * @param subnets the iterable collection of subnets
+     * @return true  if the identifier subnet has been created right
      */
     boolean createSubnets(Iterable<Subnet> subnets);
 

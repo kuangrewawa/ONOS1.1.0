@@ -16,59 +16,59 @@
 package org.onosproject.app.vtnrsc;
 
 /**
- * Representation of the neutronNetwork.
+ * Representation of the tenantNetwork.
  */
 public interface TenantNetwork {
 
     /**
-     * Coarse classification of the state of the neutronNetwork.
+     * Coarse classification of the state of the tenantNetwork.
      */
     public enum State {
         /**
-         * Signifies that a neutronNetwork is currently active.This state means
+         * Signifies that a tenantNetwork is currently active.This state means
          * that this network is available.
          */
         ACTIVE,
         /**
-         * Signifies that a neutronNetwork is currently built.
+         * Signifies that a tenantNetwork is currently built.
          */
         BUILD,
         /**
-         * Signifies that a neutronNetwork is currently unavailable.
+         * Signifies that a tenantNetwork is currently unavailable.
          */
         DOWN,
         /**
-         * Signifies that a neutronNetwork is currently error.
+         * Signifies that a tenantNetwork is currently error.
          */
         ERROR
     }
 
     /**
-     * Coarse classification of the type of the neutronNetwork.
+     * Coarse classification of the type of the tenantNetwork.
      */
     public enum Type {
         /**
-         * Signifies that a neutronNetwork is local.
+         * Signifies that a tenantNetwork is local.
          */
         LOCAL
     }
 
     /**
-     * Returns the neutronNetwork identifier.
+     * Returns the tenantNetwork identifier.
      *
-     * @return neutronNetwork identifier
+     * @return tenantNetwork identifier
      */
     TenantNetworkId id();
 
     /**
-     * Returns the neutronNetwork name.
+     * Returns the tenantNetwork name.
      *
-     * @return neutronNetwork name
+     * @return tenantNetwork name
      */
     String name();
 
     /**
-     * Returns the administrative state of the neutronNetwork,which is up(true)
+     * Returns the administrative state of the tenantNetwork,which is up(true)
      * or down(false).
      *
      * @return network admin state up
@@ -76,26 +76,26 @@ public interface TenantNetwork {
     boolean adminStateUp();
 
     /**
-     * Returns the neutronNetwork state.
+     * Returns the tenantNetwork state.
      *
-     * @return neutronNetwork state
+     * @return tenantNetwork state
      */
     State state();
 
     /**
-     * Indicates whether this neutronNetwork is shared across all tenants. By
+     * Indicates whether this tenantNetwork is shared across all tenants. By
      * default,only administrative user can change this value.
      *
-     * @return neutronNetwork shared
+     * @return tenantNetwork shared
      */
     boolean shared();
 
     /**
-     * Returns the UUID of the tenant that will own the neutronNetwork. This
+     * Returns the UUID of the tenant that will own the tenantNetwork. This
      * tenant can be different from the tenant that makes the create
-     * neutronNetwork request.
+     * tenantNetwork request.
      *
-     * @return neutronNetwork tenant identifier
+     * @return tenantNetwork tenant identifier
      */
     TenantId tenantId();
 
@@ -103,28 +103,28 @@ public interface TenantNetwork {
      * Returns the routerExternal.Indicates whether this network is externally
      * accessible.
      *
-     * @return neutronNetwork router external
+     * @return true if tenantNetwork router external
      */
     boolean routerExternal();
 
     /**
-     * Returns the neutronNetwork Type.
+     * Returns the tenantNetwork Type.
      *
-     * @return neutronNetwork Type
+     * @return tenantNetwork Type
      */
     Type type();
 
     /**
-     * Returns the neutronNetwork physical network.
+     * Returns the tenantNetwork physical network.
      *
-     * @return neutronNetwork physical network
+     * @return tenantNetwork physical network
      */
     PhysicalNetwork physicalNetwork();
 
     /**
-     * Returns the neutronNetwork segmentation id.
+     * Returns the tenantNetwork segmentation id.
      *
-     * @return neutronNetwork segmentation id
+     * @return tenantNetwork segmentation id
      */
     SegmentationId segmentationId();
 }
