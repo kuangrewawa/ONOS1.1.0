@@ -38,7 +38,7 @@ public final class VirtualPortId {
     /**
      * Creates a virtualPort id using the supplied portId.
      *
-     * @param portId port identifier
+     * @param portId virtualport identifier
      * @return VirtualPortId
      */
     public static VirtualPortId portId(String portId) {

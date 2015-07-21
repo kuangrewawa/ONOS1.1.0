@@ -71,15 +71,15 @@ import com.google.common.collect.Maps;
 @Path("virtualports")
 public class VirtualPortWebResource extends AbstractWebResource {
     public static final String VPORT_NOT_FOUND = "VirtualPort is not found";
-    public static final String VPORT_ID_EXIST = "VirtualPort id is existed";
-    public static final String VPORT_ID_NOT_EXIST = "VirtualPort id is not existed";
+    public static final String VPORT_ID_EXIST = "VirtualPort id is exist";
+    public static final String VPORT_ID_NOT_EXIST = "VirtualPort id is not exist";
     protected static final Logger log = LoggerFactory
             .getLogger(VirtualPortService.class);
 
     @GET
     @Produces({ MediaType.APPLICATION_JSON })
     public Response getPorts() {
-        log.info("Starting query virtualPort.");
+        log.info("Starting query virtualPort");
         Iterable<VirtualPort> virtualPorts = get(VirtualPortService.class)
                 .getPorts();
         log.info("Query completion. Return the size of virtualPort is {}");
@@ -103,14 +103,11 @@ public class VirtualPortWebResource extends AbstractWebResource {
     @POST
     public Response createPorts(InputStream input) throws IOException {
         try {
-            log.info("Starting create vPort.");
             ObjectMapper mapper = new ObjectMapper();
             JsonNode cfg = mapper.readTree(input);
             Iterable<VirtualPort> vPorts = createOrUpdateByInputStream(cfg);
-            log.info("vPortS size {}", vPorts.toString());
             Boolean issuccess = nullIsNotFound(get(VirtualPortService.class)
                     .createPorts(vPorts), VPORT_NOT_FOUND);
-            log.info("create result is {}", issuccess.toString());
             if (!issuccess) {
                 return Response.status(INTERNAL_SERVER_ERROR)
                         .entity(VPORT_ID_NOT_EXIST).build();
@@ -173,8 +170,6 @@ public class VirtualPortWebResource extends AbstractWebResource {
      * @return Object of virtualPort
      */
     public Iterable<VirtualPort> createOrUpdateByInputStream(JsonNode vPortNode) {
-        // ConcurrentMap<VirtualPortId, VirtualPort> vPortsMap = Maps
-        // .newConcurrentMap();
         Map<VirtualPortId, VirtualPort> vPortsMap = new HashMap<VirtualPortId, VirtualPort>();
         Map<String, String> strMap = new HashMap<String, String>();
         try {
@@ -197,44 +192,25 @@ public class VirtualPortWebResource extends AbstractWebResource {
                     String state = vPortnode.get("state").asText();
                     MacAddress macAddress = MacAddress.valueOf(vPortnode
                             .get("macAddress").asText());
-                    log.info("macAddress is {}", vPortnode.get("macAddress")
-                            .asText());
                     DeviceId deviceId = DeviceId.deviceId(vPortnode
                             .get("deviceId").asText());
-                    log.info("deviceId is {}", vPortnode.get("deviceId")
-                            .asText());
                     String deviceOwner = vPortnode.get("deviceOwner").asText();
-                    log.info("deviceOwner is {}", vPortnode.get("deviceOwner")
-                            .asText());
                     JsonNode fixedIpNode = vPortnode.get("fixedIp");
-                    log.info("fixedIp is {}", "fixedIp");
                     FixedIp fixedIp = jsonNodeToFixedIps(fixedIpNode);
-                    log.info("fixedIpDecode is {}", fixedIp.toString());
-                    // HostId bindingHostId = HostId.hostId(vPortnode
-                    // .get("bindingHostId").asText());
                     HostId bindingHostId = HostId.hostId(MacAddress
                             .valueOf(vPortnode.get("bindingHostId").asText()));
-                    log.info("bindingHostId is {}",
-                             vPortNode.get("bindingHostId").asText());
                     String bindingvnicType = vPortnode.get("bindingvnicType")
                             .asText();
-                    log.info("bindingvnicType is {}", bindingvnicType);
                     String bindingvifType = vPortnode.get("bindingvifType")
                             .asText();
-                    log.info("bindingvifType is {}", bindingvifType);
                     String bindingvifDetails = vPortnode
                             .get("bindingvifDetails").asText();
-                    log.info("bindingvifDetails is {}", bindingvifDetails);
                     JsonNode allowedAddressPairJsonNode = vPortnode
                             .get("allowedAddressPairs");
-                    log.info("allowedAddressPairJsonNode is {}",
-                             allowedAddressPairJsonNode);
                     Collection<AllowedAddressPair> allowedAddressPairs =
                             jsonNodeToAllowedAddressPair(allowedAddressPairJsonNode);
-                    log.info("allowedAddressPairs is {}", "allowedAddressPairs");
                     JsonNode securityGroupNode = vPortnode
                             .get("securityGroups");
-                    log.info("securityGroups is {}", "securityGroups");
                     Collection<SecurityGroup> securityGroups =
                             jsonNodeToSecurityGroup(securityGroupNode);
                     strMap.put("name", name);
@@ -261,7 +237,6 @@ public class VirtualPortWebResource extends AbstractWebResource {
                 VirtualPortId id = VirtualPortId.portId(vPortNodes.get("id")
                         .asText());
                 String name = vPortNodes.get("name").asText();
-                log.info("name is {}", vPortNodes.get("name").asText());
                 TenantId tenantId = TenantId.tenantId(vPortNodes
                         .get("tenantId").asText());
                 TenantNetworkId networkId = TenantNetworkId
@@ -271,42 +246,26 @@ public class VirtualPortWebResource extends AbstractWebResource {
                 String state = vPortNodes.get("state").asText();
                 MacAddress macAddress = MacAddress.valueOf(vPortNodes
                         .get("macAddress").asText());
-                log.info("macAddress is {}", vPortNodes.get("macAddress")
-                        .asText());
                 DeviceId deviceId = DeviceId.deviceId(vPortNodes
                         .get("deviceId").asText());
-                log.info("deviceId is {}", vPortNodes.get("deviceId").asText());
                 String deviceOwner = vPortNodes.get("deviceOwner").asText();
-                log.info("deviceOwner is {}", vPortNodes.get("deviceOwner")
-                        .asText());
                 JsonNode fixedIpNode = vPortNodes.get("fixedIp");
-                log.info("fixedIp is {}", "fixedIp");
                 FixedIp fixedIp = jsonNodeToFixedIps(fixedIpNode);
-                log.info("fixedIpDecode is {}", fixedIp.toString());
                 // HostId bindingHostId = HostId.hostId(vPortnode
                 // .get("bindingHostId").asText());
                 HostId bindingHostId = HostId.hostId(MacAddress
                         .valueOf(vPortNodes.get("bindingHostId").asText()));
-                log.info("bindingHostId is {}", vPortNodes.get("bindingHostId")
-                        .asText());
                 String bindingvnicType = vPortNodes.get("bindingvnicType")
                         .asText();
-                log.info("bindingvnicType is {}", bindingvnicType);
                 String bindingvifType = vPortNodes.get("bindingvifType")
                         .asText();
-                log.info("bindingvifType is {}", bindingvifType);
                 String bindingvifDetails = vPortNodes.get("bindingvifDetails")
                         .asText();
-                log.info("bindingvifDetails is {}", bindingvifDetails);
                 JsonNode allowedAddressPairJsonNode = vPortNodes
                         .get("allowedAddressPairs");
-                log.info("allowedAddressPairJsonNode is {}",
-                         allowedAddressPairJsonNode);
                 Collection<AllowedAddressPair> allowedAddressPairs =
                         jsonNodeToAllowedAddressPair(allowedAddressPairJsonNode);
-                log.info("allowedAddressPairs is {}", "allowedAddressPairs");
                 JsonNode securityGroupNode = vPortNodes.get("securityGroups");
-                log.info("securityGroups is {}", securityGroupNode);
                 Collection<SecurityGroup> securityGroups =
                         jsonNodeToSecurityGroup(securityGroupNode);
                 strMap.putIfAbsent("name", name);

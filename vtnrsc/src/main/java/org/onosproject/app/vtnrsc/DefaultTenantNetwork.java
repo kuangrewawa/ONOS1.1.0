@@ -20,7 +20,7 @@ import static com.google.common.base.MoreObjects.toStringHelper;
 import java.util.Objects;
 
 /**
- * Default NeutronNetwork model implementation.
+ * Default TenantNetwork model implementation.
  */
 public final class DefaultTenantNetwork implements TenantNetwork {
     private final TenantNetworkId id;

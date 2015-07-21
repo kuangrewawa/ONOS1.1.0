@@ -31,8 +31,8 @@ public final class DefaultAllocationPool implements AllocationPool {
     private final IpAddress endIP;
 
     public DefaultAllocationPool(IpAddress startIP, IpAddress endIP) {
-        checkNotNull(startIP, "startIP is not null");
-        checkNotNull(endIP, "endIP is not null");
+        checkNotNull(startIP, "StartIP is not null");
+        checkNotNull(endIP, "EndIP is not null");
         this.startIP = startIP;
         this.endIP = endIP;
     }

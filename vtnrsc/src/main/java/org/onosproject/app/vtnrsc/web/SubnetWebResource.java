@@ -61,8 +61,8 @@ import com.google.common.collect.Maps;
 @Path("subnets")
 public class SubnetWebResource extends AbstractWebResource {
     private final Logger log = LoggerFactory.getLogger(SubnetWebResource.class);
-    public static final String SUBNET_NOT_CREATE = "Subnets if failed to create!";
-    public static final String SUBNET_NOT_FOUND = "Subnets if failed to update!";
+    public static final String SUBNET_NOT_CREATE = "Subnets is failed to create!";
+    public static final String SUBNET_NOT_FOUND = "Subnets is failed to update!";
 
     @GET
     public Response listSubnets() {
@@ -305,18 +305,5 @@ public class SubnetWebResource extends AbstractWebResource {
         }
         return Collections.unmodifiableCollection(hostRouteMaps.values());
     }
-    // private SparseAnnotations annotations(JsonNode node) {
-    // if (node == null) {
-    // return null;
-    // }
-    //
-    // DefaultAnnotations.Builder builder = DefaultAnnotations.builder();
-    // Iterator<String> it = node.fieldNames();
-    // while (it.hasNext()) {
-    // String k = it.next();
-    // builder.set(k, node.get(k).asText());
-    // }
-    // return builder.build();
-    // }
 
 }

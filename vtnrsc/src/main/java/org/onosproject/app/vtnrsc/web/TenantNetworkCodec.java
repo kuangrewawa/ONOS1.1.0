@@ -24,7 +24,7 @@ import org.onosproject.codec.JsonCodec;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
- * NeutronNetwork JSON codec.
+ * TenantNetwork JSON codec.
  */
 public final class TenantNetworkCodec extends JsonCodec<TenantNetwork> {
 

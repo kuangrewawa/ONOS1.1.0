@@ -77,7 +77,7 @@ public interface VirtualPortService {
     /**
      * Creates virtualPorts by virtualPorts.
      *
-     * @param virtualPorts collection of virtualPorts
+     * @param virtualPorts the iterable collection of virtualPorts
      * @return true if all given identifiers created successfully.
      */
     boolean createPorts(Iterable<VirtualPort> virtualPorts);
@@ -85,7 +85,7 @@ public interface VirtualPortService {
     /**
      * Updates virtualPorts by virtualPorts.
      *
-     * @param virtualPorts collection of virtualPorts
+     * @param virtualPorts the iterable  collection of virtualPorts
      * @return true if all given identifiers updated successfully.
      */
     boolean updatePorts(Iterable<VirtualPort> virtualPorts);
@@ -93,7 +93,7 @@ public interface VirtualPortService {
     /**
      * Deletes virtualPortIds by virtualPortIds.
      *
-     * @param virtualPortIds collection of virtualPorts
+     * @param virtualPortIds the iterable collection of virtualPort identifiers
      * @return true or false if one with the given identifier to delete is
      *         successfully.
      */

@@ -16,12 +16,9 @@
 package org.onosproject.app.vtnrsc.subnet.impl;
 
 import static com.google.common.base.Preconditions.checkNotNull;
-import static java.util.concurrent.Executors.newSingleThreadScheduledExecutor;
-import static org.onlab.util.Tools.groupedThreads;
 import static org.slf4j.LoggerFactory.getLogger;
 
 import java.util.Collections;
-import java.util.concurrent.ScheduledExecutorService;
 
 import org.apache.felix.scr.annotations.Activate;
 import org.apache.felix.scr.annotations.Component;
@@ -42,7 +39,7 @@ import org.onosproject.store.service.WallClockTimestamp;
 import org.slf4j.Logger;
 
 /**
- * Provides implementation of the subnet SB &amp; NB APIs.
+ * Provides implementation of the subnet service.
  */
 @Component(immediate = true)
 @Service
@@ -53,7 +50,6 @@ public class SubnetManager implements SubnetService {
     private final Logger log = getLogger(getClass());
 
     private EventuallyConsistentMap<SubnetId, Subnet> subnetStore;
-    private ScheduledExecutorService backgroundService;
 
     @Reference(cardinality = ReferenceCardinality.MANDATORY_UNARY)
     protected StorageService storageService;
@@ -63,8 +59,6 @@ public class SubnetManager implements SubnetService {
 
     @Activate
     public void activate() {
-        backgroundService = newSingleThreadScheduledExecutor(groupedThreads("onos/subnet",
-                                                                            "manager-background"));
 
         KryoNamespace.Builder serializer = KryoNamespace.newBuilder()
                 .register(MultiValuedTimestamp.class);
@@ -74,15 +68,13 @@ public class SubnetManager implements SubnetService {
                 .withTimestampProvider((k, v) -> new WallClockTimestamp())
                 .build();
 
-        log.info("Started");
+        log.info("SubnetManager  started");
     }
 
     @Deactivate
     public void deactivate() {
-        backgroundService.shutdown();
-
         subnetStore.destroy();
-        log.info("Stopped");
+        log.info("SubnetManager stopped");
     }
 
     @Override
@@ -104,6 +96,7 @@ public class SubnetManager implements SubnetService {
 
     @Override
     public boolean createSubnets(Iterable<Subnet> subnets) {
+        checkNotNull(subnets, SUBNET_ID_NULL);
         for (Subnet subnet : subnets) {
             if (!tenantNetworkService.exists(TenantNetworkId.networkId(subnet
                     .networkId().toString()))) {
@@ -116,6 +109,7 @@ public class SubnetManager implements SubnetService {
 
     @Override
     public boolean updateSubnets(Iterable<Subnet> subnets) {
+        checkNotNull(subnets, SUBNET_ID_NULL);
         if (subnets != null) {
             for (Subnet subnet : subnets) {
                 subnetStore.put(subnet.id(), subnet);

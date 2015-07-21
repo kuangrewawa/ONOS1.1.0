@@ -90,7 +90,7 @@ public interface Subnet {
     boolean dhcpEnabled();
 
     /**
-     * Indicates whether this neutronNetwork is shared across all tenants. By
+     * Indicates whether this tenantNetwork is shared across all tenants. By
      * default,only administrative user can change this value.
      *
      * @return shared

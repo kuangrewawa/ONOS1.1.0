@@ -38,7 +38,7 @@ import org.onosproject.store.service.WallClockTimestamp;
 import org.slf4j.Logger;
 
 /**
- * Provides implementation of the neutronNetwork NB APIs.
+ * Provides implementation of the tenantNetwork NB APIs.
  */
 @Component(immediate = true)
 @Service

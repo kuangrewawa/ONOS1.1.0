@@ -55,7 +55,7 @@ public interface SubnetService {
     /**
      * Updates existing subnets.
      *
-     * @param subnets the collection of subnets
+     * @param subnets the iterable collection of subnets
      * @return true if all subnets were updated successfully
      */
     boolean updateSubnets(Iterable<Subnet> subnets);
@@ -63,7 +63,7 @@ public interface SubnetService {
     /**
      * Administratively removes the specified subnets from the store.
      *
-     * @param Iterable<Subnet> subnets identifier
+     * @param subnetIds the iterable collection of  subnets identifier
      * @return true if remove identifier subnets successfully
      */
     boolean removeSubnets(Iterable<SubnetId> subnetIds);

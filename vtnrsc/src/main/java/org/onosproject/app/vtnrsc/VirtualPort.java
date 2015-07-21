@@ -50,7 +50,7 @@ public interface VirtualPort {
     /**
      * Returns the network identifier.
      *
-     * @return neutronnetwork ID
+     * @return tenantNetwork ID
      */
     TenantNetworkId networkId();
 

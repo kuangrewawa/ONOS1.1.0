@@ -30,39 +30,39 @@ import org.onosproject.app.vtnrsc.tenantnetwork.TenantNetworkService;
 import org.onosproject.cli.AbstractShellCommand;
 
 /**
- * Supports for updating a NeutronNetworks.
+ * Supports for updating a TenantNetworks.
  */
-@Command(scope = "onos", name = "NeutronNetwork-update", description = "Supports for updating NeutronNetworks")
+@Command(scope = "onos", name = "TenantNetwork-update", description = "Supports for updating TenantNetworks")
 public class TenantNetworkUpdateCommand extends AbstractShellCommand {
 
-    @Argument(index = 0, name = "id", description = "NeutronNetwork networkid Id", required = true,
+    @Argument(index = 0, name = "id", description = "TenantNetwork networkid Id", required = true,
             multiValued = false)
     String id = null;
-    @Argument(index = 1, name = "name", description = "NeutronNetwork String name", required = true,
+    @Argument(index = 1, name = "name", description = "TenantNetwork String name", required = true,
             multiValued = false)
     String name = null;
-    @Argument(index = 2, name = "adminStateUp", description = "NeutronNetwork boolean adminStateUp",
+    @Argument(index = 2, name = "adminStateUp", description = "TenantNetwork boolean adminStateUp",
             required = true, multiValued = false)
     boolean adminStateUp = false;
-    @Argument(index = 3, name = "state", description = "The state of NeutronNetwork", required = true,
+    @Argument(index = 3, name = "state", description = "The state of TenantNetwork", required = true,
             multiValued = false)
     String state = null;
-    @Argument(index = 4, name = "shared", description = "NeutronNetwork boolean shared", required = true,
+    @Argument(index = 4, name = "shared", description = "TenantNetwork boolean shared", required = true,
             multiValued = false)
     boolean shared = false;
-    @Argument(index = 5, name = "tenantID", description = "NeutronNetwork tenantId Id", required = true,
+    @Argument(index = 5, name = "tenantID", description = "TenantNetwork tenantId Id", required = true,
             multiValued = false)
     String tenantID = null;
-    @Argument(index = 6, name = "routerExternal", description = "NeutronNetwork boolean routerExternal",
+    @Argument(index = 6, name = "routerExternal", description = "TenantNetwork boolean routerExternal",
             required = true, multiValued = false)
     boolean routerExternal = false;
-    @Argument(index = 7, name = "type", description = "The type of NeutronNetwork", required = true,
+    @Argument(index = 7, name = "type", description = "The type of TenantNetwork", required = true,
             multiValued = false)
     String type = null;
-    @Argument(index = 8, name = "physicalNetwork", description = "NeutronNetwork physicalNetwork",
+    @Argument(index = 8, name = "physicalNetwork", description = "TenantNetwork physicalNetwork",
             required = true, multiValued = false)
     String physicalNetwork = null;
-    @Argument(index = 9, name = "segmentationID", description = "NeutronNetwork segmentationID Id",
+    @Argument(index = 9, name = "segmentationID", description = "TenantNetwork segmentationID Id",
             required = true, multiValued = false)
     String segmentationID = null;
 

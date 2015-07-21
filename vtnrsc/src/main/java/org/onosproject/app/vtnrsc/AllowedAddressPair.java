@@ -37,9 +37,9 @@ public final class AllowedAddressPair {
         this.mac = mac;
     }
     /**
-     * Returns the AllowedAddressPair IP address.
+     * Returns the AllowedAddressPair ip address.
      *
-     * @return IP address
+     * @return ip address
      */
     public IpAddress ip() {
         return ip;

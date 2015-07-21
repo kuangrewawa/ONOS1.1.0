@@ -25,7 +25,7 @@ import org.onosproject.cli.AbstractShellCommand;
 import org.onosproject.net.DeviceId;
 
 /**
- * Support for querying virtualPorts.
+ * Supports for querying virtualPorts.
  */
 @Command(scope = "onos", name = "virtualPort", description = "Supports for querying virtualPort.")
 public class VirtualPortQueryCommand extends AbstractShellCommand {

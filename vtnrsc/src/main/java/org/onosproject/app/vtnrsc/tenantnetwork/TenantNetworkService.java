@@ -19,34 +19,34 @@ import org.onosproject.app.vtnrsc.TenantNetwork;
 import org.onosproject.app.vtnrsc.TenantNetworkId;
 
 /**
- * Service for interacting with the inventory of neutronNetwork.
+ * Service for interacting with the inventory of tenantNetwork.
  */
 public interface TenantNetworkService {
 
     /**
-     * Returns if the neutronNetwork is existed.
+     * Returns if the tenantNetwork is existed.
      *
-     * @param networkId neutronNetwork identifier
+     * @param networkId tenantNetwork identifier
      * @return true or false if one with the given identifier exists.
      */
     boolean exists(TenantNetworkId networkId);
 
     /**
-     * Returns the number of neutronNetwork known to the system.
+     * Returns the number of tenantNetwork known to the system.
      *
-     * @return number of neutronNetwork.
+     * @return number of tenantNetwork.
      */
     int getNetworkCount();
 
     /**
-     * Returns an iterable collection of the currently known neutronNetwork.
+     * Returns an iterable collection of the currently known tenantNetwork.
      *
-     * @return collection of neutronNetwork.
+     * @return collection of tenantNetwork.
      */
     Iterable<TenantNetwork> getNetworks();
 
     /**
-     * Returns the neutronNetwork with the identifier.
+     * Returns the tenantNetwork with the identifier.
      *
      * @param networkId TenantNetwork identifier
      * @return TenantNetwork or null if one with the given identifier is not
@@ -55,26 +55,26 @@ public interface TenantNetworkService {
     TenantNetwork getNetwork(TenantNetworkId networkId);
 
     /**
-     * Creates neutronNetworks by networks.
+     * Creates tenantNetworks by networks.
      *
-     * @param networks the collection of neutronNetworks
+     * @param networks the collection of tenantNetworks
      * @return true if all given identifiers created successfully.
      */
     boolean createNetworks(Iterable<TenantNetwork> networks);
 
     /**
-     * Updates neutronNetworks by neutronNetworks.
+     * Updates tenantNetworks by tenantNetworks.
      *
-     * @param networks the collection of neutronNetworks
+     * @param networks the collection of tenantNetworks
      * @return true if all given identifiers updated successfully.
      */
     boolean updateNetworks(Iterable<TenantNetwork> networks);
 
     /**
-     * Deletes neutronNetwork by neutronNetworkIds.
+     * Deletes tenantNetwork by tenantNetworkIds.
      *
-     * @param networksId the collection of neutronNetworkIds
-     * @return true if the specified neutronNetwork deleted successfully.
+     * @param networksId the collection of tenantNetworkIds
+     * @return true if the specified tenantNetwork deleted successfully.
      */
     boolean removeNetworks(Iterable<TenantNetworkId> networksId);
 }

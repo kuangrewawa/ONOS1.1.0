@@ -15,25 +15,30 @@
  */
 package org.onosproject.app.vtnrsc.cli.network;
 
+import java.util.Set;
+
 import org.apache.karaf.shell.commands.Argument;
 import org.apache.karaf.shell.commands.Command;
+import org.onosproject.app.vtnrsc.TenantNetworkId;
 import org.onosproject.app.vtnrsc.tenantnetwork.TenantNetworkService;
 import org.onosproject.cli.AbstractShellCommand;
 
 /**
- * Supports for removing a NeutronNetworks.
+ * Supports for removing a TenantNetworks.
  */
-@Command(scope = "onos", name = "NeutronNetwork-remove", description = "Supports for removing"
-        + "NeutronNetwork by NeutronNetworkid")
+@Command(scope = "onos", name = "TenantNetwork-remove", description = "Supports for removing"
+        + "TenantNetwork by TenantNetworkid")
 public class TenantNetworkRemoveCommand extends AbstractShellCommand {
 
-    @Argument(index = 0, name = "id", description = "NeutronNetwork neutronNetwork Id", required = true,
+    @Argument(index = 0, name = "id", description = "TenantNetwork neutronNetwork Id", required = true,
             multiValued = false)
     String id = null;
 
     @Override
     protected void execute() {
         TenantNetworkService service = get(TenantNetworkService.class);
-//        service.removeNetworks(TenantNetworkId.networkId(id));
+        Set<TenantNetworkId> networkIds = null;
+        networkIds.add(TenantNetworkId.networkId(id));
+        service.removeNetworks(networkIds);
     }
 }
