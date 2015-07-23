@@ -52,7 +52,7 @@
         <module>xos-integration</module>
         <module>pcep-api</module>
         <module>olt</module>
-		<module>vtnrsc</module>
+        <module>vtnrsc</module>
     </modules>
 
     <properties>
