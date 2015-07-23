@@ -1,5 +1,5 @@
 /*
- * Copyright 2014 Open Networking Laboratory
+ * Copyright 2015 Open Networking Laboratory
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -29,6 +29,13 @@ import org.onlab.packet.IpAddress;
 public final class FixedIp {
     private final SubnetId subnetId;
     private final IpAddress ip;
+    // Public construction is prohibited
+    private FixedIp(SubnetId subnetId, IpAddress ip) {
+        checkNotNull(subnetId, "SubnetId cannot be null");
+        checkNotNull(ip, "IpAddress cannot be null");
+        this.subnetId = subnetId;
+        this.ip = ip;
+    }
 
     /**
      * Returns the FixedIp subnet identifier.
@@ -46,14 +53,6 @@ public final class FixedIp {
      */
     public IpAddress ip() {
         return ip;
-    }
-
-    // Public construction is prohibited
-    public FixedIp(SubnetId subnetId, IpAddress ip) {
-        checkNotNull(subnetId, "subnetId is not null");
-        checkNotNull(ip, "ipAddress is not null");
-        this.subnetId = subnetId;
-        this.ip = ip;
     }
 
     /**

@@ -1,5 +1,5 @@
 /*
- * Copyright 2014 Open Networking Laboratory
+ * Copyright 2015 Open Networking Laboratory
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -24,15 +24,14 @@ import java.util.Objects;
  */
 public final class VirtualPortId {
     private final String portId;
+    // Public construction is prohibited
+    private VirtualPortId(String virtualPortId) {
+        checkNotNull(virtualPortId, "VirtualPortId cannot be null");
+        this.portId = virtualPortId;
+    }
 
     public String portId() {
         return portId;
-    }
-
-    // Public construction is prohibited
-    private VirtualPortId(String virtualPortId) {
-        checkNotNull(virtualPortId, "virtualPortId is not null");
-        this.portId = virtualPortId;
     }
 
     /**

@@ -1,5 +1,5 @@
 /*
- * Copyright 2014 Open Networking Laboratory
+ * Copyright 2015 Open Networking Laboratory
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -28,7 +28,7 @@ public final class PhysicalNetwork {
 
     // Public construction is prohibited
     private PhysicalNetwork(String physicalnetwork) {
-        checkNotNull(physicalnetwork, "physicalnetwork is not null");
+        checkNotNull(physicalnetwork, "Physicalnetwork cannot be null");
         this.physicalnetwork = physicalnetwork;
     }
 

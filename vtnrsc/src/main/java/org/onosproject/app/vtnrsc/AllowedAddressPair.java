@@ -1,5 +1,5 @@
 /*
- * Copyright 2014 Open Networking Laboratory
+ * Copyright 2015 Open Networking Laboratory
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -29,10 +29,10 @@ import org.onlab.packet.MacAddress;
 public final class AllowedAddressPair {
     private final IpAddress ip;
     private final MacAddress mac;
-
-    public AllowedAddressPair(IpAddress ip, MacAddress mac) {
-        checkNotNull(ip, "ipAddress is not null");
-        checkNotNull(mac, "macAddress is not null");
+    // Public construction is prohibited
+    private AllowedAddressPair(IpAddress ip, MacAddress mac) {
+        checkNotNull(ip, "IpAddress cannot be null");
+        checkNotNull(mac, "MacAddress cannot be null");
         this.ip = ip;
         this.mac = mac;
     }

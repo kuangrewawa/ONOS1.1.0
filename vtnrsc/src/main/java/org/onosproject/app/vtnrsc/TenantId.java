@@ -1,5 +1,5 @@
 /*
- * Copyright 2014 Open Networking Laboratory
+ * Copyright 2015 Open Networking Laboratory
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -38,7 +38,7 @@ public final class TenantId {
      * @return TenantId
      */
     public static TenantId tenantId(String tenantid) {
-        checkNotNull(tenantid, "tenantid is not null");
+        checkNotNull(tenantid, "Tenantid can not be null");
         return new TenantId(tenantid);
     }
 

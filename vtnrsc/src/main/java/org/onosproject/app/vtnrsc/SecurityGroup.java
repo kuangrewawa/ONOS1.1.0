@@ -1,5 +1,5 @@
 /*
- * Copyright 2014 Open Networking Laboratory
+ * Copyright 2015 Open Networking Laboratory
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -34,9 +34,9 @@ public final class SecurityGroup {
     public String securityGroup() {
         return securityGroup;
     }
-
-    public SecurityGroup(String securityGroup) {
-        checkNotNull(securityGroup, "securityGroup is not null");
+    // Public construction is prohibited
+    private SecurityGroup(String securityGroup) {
+        checkNotNull(securityGroup, "SecurityGroup cannot be null");
         this.securityGroup = securityGroup;
     }
 

@@ -43,7 +43,7 @@
             <artifactId>org.apache.karaf.shell.console</artifactId>
         </dependency>
 	</dependencies>
-	
+	<!--
 	<build>
         <plugins>
             <plugin>
@@ -82,5 +82,6 @@
             </plugin>
         </plugins>
     </build>
+    -->
 
 </project>

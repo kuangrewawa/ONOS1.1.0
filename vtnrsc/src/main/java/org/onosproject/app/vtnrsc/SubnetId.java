@@ -1,5 +1,5 @@
 /*
- * Copyright 2014 Open Networking Laboratory
+ * Copyright 2015 Open Networking Laboratory
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -28,7 +28,7 @@ public final class SubnetId {
 
     // Public construction is prohibited
     private SubnetId(String subnetId) {
-        checkNotNull(subnetId, "subnetId is not null");
+        checkNotNull(subnetId, "SubnetId cannot be null");
         this.subnetId = subnetId;
     }
 

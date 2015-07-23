@@ -1,5 +1,5 @@
 /*
- * Copyright 2014 Open Networking Laboratory
+ * Copyright 2015 Open Networking Laboratory
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -345,7 +345,7 @@ public class VirtualPortWebResource extends AbstractWebResource {
             IpAddress ip = IpAddress.valueOf(node.get("ipAddress").asText());
             MacAddress mac = MacAddress
                     .valueOf(node.get("macAddress").asText());
-            AllowedAddressPair allows = new AllowedAddressPair(ip, mac);
+            AllowedAddressPair allows = AllowedAddressPair.allowedAddressPair(ip, mac);
             allowMaps.put(i, allows);
             i++;
         }
@@ -365,7 +365,7 @@ public class VirtualPortWebResource extends AbstractWebResource {
         log.info("securityGroups is {}", securityGroups.toString());
         for (JsonNode node : securityGroups) {
             log.info("securityGroup is {}", node.get("securityGroup").asText());
-            SecurityGroup securityGroup = new SecurityGroup(node
+            SecurityGroup securityGroup = SecurityGroup.securityGroup(node
                     .get("securityGroup").asText());
             log.info("securityGroup class is  {}", securityGroup.toString());
             securMaps.put(i, securityGroup);
@@ -380,7 +380,7 @@ public class VirtualPortWebResource extends AbstractWebResource {
                 .asText());
         IpAddress ipAddress = IpAddress.valueOf(fixedIpNode.get("ipAddress")
                 .asText());
-        FixedIp fixedIps = new FixedIp(subnetId, ipAddress);
+        FixedIp fixedIps = FixedIp.fixedIp(subnetId, ipAddress);
         return fixedIps;
     }
 

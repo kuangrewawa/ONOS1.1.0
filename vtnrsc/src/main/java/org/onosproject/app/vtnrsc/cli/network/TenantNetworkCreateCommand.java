@@ -1,5 +1,5 @@
 /*
- * Copyright 2014 Open Networking Laboratory
+ * Copyright 2015 Open Networking Laboratory
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -35,25 +35,35 @@ import org.onosproject.cli.AbstractShellCommand;
 @Command(scope = "onos", name = "TenantNetwork-create", description = "Supports for creating a TenantNetwork")
 public class TenantNetworkCreateCommand extends AbstractShellCommand {
 
-    @Argument(index = 0, name = "id", description = "TenantNetwork networkid Id", required = true, multiValued = false)
+    @Argument(index = 0, name = "id", description = "TenantNetwork networkid Id",
+            required = true, multiValued = false)
     String id = null;
-    @Argument(index = 1, name = "name", description = "TenantNetwork String name", required = true, multiValued = false)
+    @Argument(index = 1, name = "name", description = "TenantNetwork String name",
+            required = true, multiValued = false)
     String name = null;
-    @Argument(index = 2, name = "adminStateUp", description = "TenantNetwork boolean adminStateUp", required = true, multiValued = false)
+    @Argument(index = 2, name = "adminStateUp", description = "TenantNetwork boolean adminStateUp",
+            required = true, multiValued = false)
     boolean adminStateUp = false;
-    @Argument(index = 3, name = "state", description = "The state of TenantNetwork", required = true, multiValued = false)
+    @Argument(index = 3, name = "state", description = "The state of TenantNetwork",
+            required = true, multiValued = false)
     String state = null;
-    @Argument(index = 4, name = "shared", description = "TenantNetwork boolean shared", required = true, multiValued = false)
+    @Argument(index = 4, name = "shared", description = "TenantNetwork boolean shared",
+            required = true, multiValued = false)
     boolean shared = false;
-    @Argument(index = 5, name = "tenantID", description = "TenantNetwork tenantId Id", required = true, multiValued = false)
+    @Argument(index = 5, name = "tenantID", description = "TenantNetwork tenantId Id",
+            required = true, multiValued = false)
     String tenantID = null;
-    @Argument(index = 6, name = "routerExternal", description = "TenantNetwork boolean routerExternal", required = true, multiValued = false)
+    @Argument(index = 6, name = "routerExternal", description = "TenantNetwork boolean routerExternal",
+            required = true, multiValued = false)
     boolean routerExternal = false;
-    @Argument(index = 7, name = "type", description = "The type of TenantNetwork", required = true, multiValued = false)
+    @Argument(index = 7, name = "type", description = "The type of TenantNetwork",
+            required = true, multiValued = false)
     String type = null;
-    @Argument(index = 8, name = "physicalNetwork", description = "TenantNetwork physicalNetwork", required = true, multiValued = false)
+    @Argument(index = 8, name = "physicalNetwork", description = "TenantNetwork physicalNetwork",
+            required = true, multiValued = false)
     String physicalNetwork = null;
-    @Argument(index = 9, name = "segmentationID", description = "TenantNetwork segmentationID Id", required = true, multiValued = false)
+    @Argument(index = 9, name = "segmentationID", description = "TenantNetwork segmentationID Id",
+            required = true, multiValued = false)
     String segmentationID = null;
 
     @Override
