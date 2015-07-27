@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.9">
+<file name="D:\00703gerritOnlab\05gerritVTNrsc实现\onos\apps\cordfabric\src\main\java\org\onosproject\cordfabric\cli\FabricAddCommand.java">
+</file>
+<file name="D:\00703gerritOnlab\05gerritVTNrsc实现\onos\apps\cordfabric\src\main\java\org\onosproject\cordfabric\cli\FabricRemoveCommand.java">
+</file>
+<file name="D:\00703gerritOnlab\05gerritVTNrsc实现\onos\apps\cordfabric\src\main\java\org\onosproject\cordfabric\cli\FabricShowCommand.java">
+</file>
+<file name="D:\00703gerritOnlab\05gerritVTNrsc实现\onos\apps\cordfabric\src\main\java\org\onosproject\cordfabric\cli\package-info.java">
+</file>
+<file name="D:\00703gerritOnlab\05gerritVTNrsc实现\onos\apps\cordfabric\src\main\java\org\onosproject\cordfabric\CordFabricManager.java">
+<error line="72" column="27" severity="warning" message="Variable &apos;coreService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="75" column="36" severity="warning" message="Variable &apos;flowObjectiveService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="78" column="29" severity="warning" message="Variable &apos;deviceService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="92" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="105" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="112" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="203" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="263" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="272" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="296" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="319" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="D:\00703gerritOnlab\05gerritVTNrsc实现\onos\apps\cordfabric\src\main\java\org\onosproject\cordfabric\FabricService.java">
+</file>
+<file name="D:\00703gerritOnlab\05gerritVTNrsc实现\onos\apps\cordfabric\src\main\java\org\onosproject\cordfabric\FabricVlan.java">
+<error line="38" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="46" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="50" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="54" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\00703gerritOnlab\05gerritVTNrsc实现\onos\apps\cordfabric\src\main\java\org\onosproject\cordfabric\FabricVlanCodec.java">
+</file>
+<file name="D:\00703gerritOnlab\05gerritVTNrsc实现\onos\apps\cordfabric\src\main\java\org\onosproject\cordfabric\FabricWebResource.java">
+<error line="45" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="56" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="69" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\00703gerritOnlab\05gerritVTNrsc实现\onos\apps\cordfabric\src\main\java\org\onosproject\cordfabric\package-info.java">
+</file>
+</checkstyle>

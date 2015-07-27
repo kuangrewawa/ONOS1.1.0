@@ -1,0 +1,30 @@
+七月 24, 2015 9:39:52 上午 org.onosproject.sdnip.PeerConnectivityManager start
+严重: No BGP speakers found in configuration file
+七月 24, 2015 9:39:52 上午 org.onosproject.sdnip.PeerConnectivityManager start
+警告: No interfaces found in configuration file
+七月 24, 2015 9:39:52 上午 org.onosproject.sdnip.PeerConnectivityManager buildPeerIntents
+严重: No interface found for peer 192.168.20.1
+七月 24, 2015 9:39:52 上午 org.onosproject.sdnip.PeerConnectivityManager buildPeerIntents
+严重: No interface found for peer 192.168.20.2
+七月 24, 2015 9:39:52 上午 org.onosproject.sdnip.PeerConnectivityManager buildPeerIntents
+严重: No interface found for peer 192.168.10.1
+七月 24, 2015 9:39:52 上午 org.onosproject.sdnip.PeerConnectivityManager buildPeerIntents
+严重: No interface found for peer 192.168.20.1
+七月 24, 2015 9:39:52 上午 org.onosproject.sdnip.PeerConnectivityManager buildPeerIntents
+严重: No interface found for peer 192.168.20.2
+七月 24, 2015 9:39:52 上午 org.onosproject.sdnip.PeerConnectivityManager buildPeerIntents
+严重: No interface found for peer 192.168.10.1
+七月 24, 2015 9:39:52 上午 org.onosproject.sdnip.PeerConnectivityManager buildPeerIntents
+严重: No interface found for peer 192.168.20.1
+七月 24, 2015 9:39:52 上午 org.onosproject.sdnip.PeerConnectivityManager buildPeerIntents
+严重: No interface found for peer 192.168.20.2
+七月 24, 2015 9:39:52 上午 org.onosproject.sdnip.PeerConnectivityManager buildPeerIntents
+严重: No interface found for peer 192.168.10.1
+七月 24, 2015 9:39:52 上午 org.onosproject.sdnip.PeerConnectivityManager start
+警告: No BGP peers found in configuration file
+七月 24, 2015 9:39:52 上午 org.onosproject.sdnip.PeerConnectivityManager buildPeerIntents
+严重: No interface found for peer 192.168.200.1
+七月 24, 2015 9:39:52 上午 org.onosproject.sdnip.PeerConnectivityManager buildPeerIntents
+严重: No interface found for peer 192.168.200.1
+七月 24, 2015 9:39:52 上午 org.onosproject.sdnip.PeerConnectivityManager buildPeerIntents
+严重: No interface found for peer 192.168.200.1

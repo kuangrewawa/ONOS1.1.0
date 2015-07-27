@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component immediate="true" name="org.onosproject.ui.impl.topo.TopoUiModelManager" activate="activate" deactivate="deactivate">
+        <implementation class="org.onosproject.ui.impl.topo.TopoUiModelManager"/>
+        <service servicefactory="false">
+            <provide interface="org.onosproject.ui.impl.topo.TopoUiModelService"/>
+        </service>
+        <property name="service.pid" value="org.onosproject.ui.impl.topo.TopoUiModelManager"/>
+        <reference name="clusterService" interface="org.onosproject.cluster.ClusterService" cardinality="1..1" policy="static" bind="bindClusterService" unbind="unbindClusterService"/>
+        <reference name="deviceService" interface="org.onosproject.net.device.DeviceService" cardinality="1..1" policy="static" bind="bindDeviceService" unbind="unbindDeviceService"/>
+        <reference name="linkService" interface="org.onosproject.net.link.LinkService" cardinality="1..1" policy="static" bind="bindLinkService" unbind="unbindLinkService"/>
+        <reference name="hostService" interface="org.onosproject.net.host.HostService" cardinality="1..1" policy="static" bind="bindHostService" unbind="unbindHostService"/>
+        <reference name="mastershipService" interface="org.onosproject.mastership.MastershipService" cardinality="1..1" policy="static" bind="bindMastershipService" unbind="unbindMastershipService"/>
+        <reference name="intentService" interface="org.onosproject.net.intent.IntentService" cardinality="1..1" policy="static" bind="bindIntentService" unbind="unbindIntentService"/>
+        <reference name="flowRuleService" interface="org.onosproject.net.flow.FlowRuleService" cardinality="1..1" policy="static" bind="bindFlowRuleService" unbind="unbindFlowRuleService"/>
+        <reference name="topologyService" interface="org.onosproject.net.topology.TopologyService" cardinality="1..1" policy="static" bind="bindTopologyService" unbind="unbindTopologyService"/>
+        <reference name="eventDispatcher" interface="org.onosproject.event.EventDeliveryService" cardinality="1..1" policy="static" bind="bindEventDispatcher" unbind="unbindEventDispatcher"/>
+    </scr:component>
+</components>

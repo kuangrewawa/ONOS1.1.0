@@ -1,0 +1,2362 @@
+Set Up.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session0
+======= IDLE STATE TEST =======.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State requestAccess
+警告: REQUEST ACCESS transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 0
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State radiusAccepted
+警告: AUTHORIZE ACCESS transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 0
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State radiusDenied
+警告: DENY ACCESS transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 0
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State logoff
+警告: LOGOFF transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 0
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 0
+Tear Down.
+Set Up.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session0
+======= IDENTIFIER TEST =======.
+State: 0
+Identifier: 255
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 0
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session2
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 2
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session3
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 3
+SM3: sessionId: session3	identifier: 3	state: 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session4
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 4
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session5
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 5
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session6
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 6
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session7
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 7
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session8
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 8
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session9
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 9
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session10
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 10
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session11
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 11
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session12
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 12
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session13
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 13
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session14
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 14
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session15
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 15
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session16
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 16
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session17
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 17
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session18
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 18
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session19
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 19
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session20
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 20
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session21
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 21
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session22
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 22
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session23
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 23
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session24
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 24
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session25
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 25
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session26
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 26
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session27
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 27
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session28
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 28
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session29
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 29
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session30
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 30
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session31
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 31
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session32
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 32
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session33
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 33
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session34
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 34
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session35
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 35
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session36
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 36
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session37
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 37
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session38
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 38
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session39
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 39
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session40
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 40
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session41
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 41
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session42
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 42
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session43
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 43
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session44
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 44
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session45
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 45
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session46
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 46
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session47
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 47
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session48
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 48
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session49
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 49
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session50
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 50
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session51
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 51
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session52
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 52
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session53
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 53
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session54
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 54
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session55
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 55
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session56
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 56
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session57
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 57
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session58
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 58
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session59
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 59
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session60
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 60
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session61
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 61
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session62
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 62
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session63
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 63
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session64
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 64
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session65
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 65
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session66
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 66
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session67
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 67
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session68
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 68
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session69
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 69
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session70
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 70
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session71
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 71
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session72
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 72
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session73
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 73
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session74
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 74
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session75
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 75
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session76
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 76
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session77
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 77
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session78
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 78
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session79
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 79
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session80
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 80
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session81
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 81
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session82
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 82
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session83
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 83
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session84
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 84
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session85
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 85
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session86
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 86
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session87
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 87
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session88
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 88
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session89
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 89
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session90
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 90
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session91
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 91
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session92
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 92
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session93
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 93
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session94
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 94
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session95
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 95
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session96
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 96
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session97
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 97
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session98
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 98
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session99
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 99
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session100
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 100
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session101
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 101
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session102
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 102
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session103
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 103
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session104
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 104
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session105
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 105
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session106
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 106
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session107
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 107
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session108
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 108
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session109
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 109
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session110
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 110
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session111
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 111
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session112
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 112
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session113
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 113
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session114
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 114
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session115
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 115
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session116
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 116
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session117
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 117
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session118
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 118
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session119
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 119
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session120
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 120
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session121
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 121
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session122
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 122
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session123
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 123
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session124
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 124
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session125
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 125
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session126
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 126
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session127
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 127
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session128
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 128
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session129
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 129
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session130
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 130
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session131
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 131
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session132
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 132
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session133
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 133
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session134
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 134
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session135
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 135
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session136
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 136
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session137
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 137
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session138
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 138
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session139
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 139
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session140
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 140
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session141
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 141
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session142
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 142
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session143
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 143
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session144
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 144
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session145
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 145
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session146
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 146
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session147
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 147
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session148
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 148
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session149
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 149
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session150
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 150
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session151
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 151
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session152
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 152
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session153
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 153
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session154
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 154
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session155
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 155
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session156
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 156
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session157
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 157
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session158
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 158
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session159
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 159
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session160
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 160
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session161
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 161
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session162
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 162
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session163
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 163
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session164
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 164
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session165
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 165
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session166
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 166
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session167
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 167
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session168
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 168
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session169
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 169
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session170
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 170
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session171
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 171
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session172
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 172
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session173
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 173
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session174
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 174
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session175
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 175
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session176
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 176
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session177
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 177
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session178
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 178
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session179
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 179
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session180
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 180
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session181
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 181
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session182
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 182
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session183
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 183
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session184
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 184
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session185
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 185
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session186
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 186
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session187
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 187
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session188
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 188
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session189
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 189
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session190
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 190
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session191
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 191
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session192
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 192
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session193
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 193
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session194
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 194
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session195
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 195
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session196
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 196
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session197
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 197
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session198
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 198
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session199
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 199
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session200
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 200
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session201
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 201
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session202
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 202
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session203
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 203
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session204
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 204
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session205
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 205
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session206
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 206
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session207
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 207
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session208
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 208
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session209
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 209
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session210
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 210
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session211
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 211
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session212
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 212
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session213
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 213
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session214
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 214
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session215
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 215
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session216
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 216
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session217
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 217
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session218
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 218
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session219
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 219
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session220
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 220
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session221
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 221
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session222
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 222
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session223
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 223
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session224
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 224
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session225
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 225
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session226
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 226
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session227
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 227
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session228
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 228
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session229
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 229
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session230
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 230
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session231
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 231
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session232
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 232
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session233
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 233
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session234
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 234
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session235
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 235
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session236
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 236
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session237
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 237
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session238
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 238
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session239
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 239
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session240
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 240
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session241
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 241
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session242
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 242
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session243
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 243
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session244
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 244
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session245
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 245
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session246
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 246
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session247
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 247
+SM247: sessionId: session247	identifier: 247	state: 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session248
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 248
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session249
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 249
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session250
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 250
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session251
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 251
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session252
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 252
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session253
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 253
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session254
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 254
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session255
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 255
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Started requestAccess
+信息: Moving from STARTED state to PENDING state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 2
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Pending radiusAccepted
+信息: Moving from PENDING state to AUTHORIZED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 3
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine deleteIdentifier
+信息: Freeing up 247
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Authorized logoff
+信息: Moving from AUTHORIZED state to IDLE state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 0
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Started requestAccess
+信息: Moving from STARTED state to PENDING state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 2
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Pending radiusAccepted
+信息: Moving from PENDING state to AUTHORIZED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 3
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine deleteIdentifier
+信息: Freeing up 3
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Authorized logoff
+信息: Moving from AUTHORIZED state to IDLE state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 0
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session3b
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 3
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Started requestAccess
+信息: Moving from STARTED state to PENDING state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 2
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session247b
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 247
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Started requestAccess
+信息: Moving from STARTED state to PENDING state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 2
+Tear Down.
+Set Up.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session0
+======= AUTHORIZED STATE TEST =======.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 0
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Started requestAccess
+信息: Moving from STARTED state to PENDING state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 2
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Pending radiusAccepted
+信息: Moving from PENDING state to AUTHORIZED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 3
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine deleteIdentifier
+信息: Freeing up 0
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State start
+警告: START transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 3
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 0
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State requestAccess
+警告: REQUEST ACCESS transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 3
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State radiusAccepted
+警告: AUTHORIZE ACCESS transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 3
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine deleteIdentifier
+信息: Freeing up 0
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State radiusDenied
+警告: DENY ACCESS transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 3
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Authorized logoff
+信息: Moving from AUTHORIZED state to IDLE state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 0
+Tear Down.
+Set Up.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session0
+======= PENDING STATE TEST (AUTHORIZED) =======.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 0
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Started requestAccess
+信息: Moving from STARTED state to PENDING state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 2
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State logoff
+警告: LOGOFF transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 2
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State start
+警告: START transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 2
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State requestAccess
+警告: REQUEST ACCESS transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 2
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Pending radiusAccepted
+信息: Moving from PENDING state to AUTHORIZED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 3
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine deleteIdentifier
+信息: Freeing up 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State radiusDenied
+警告: DENY ACCESS transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 3
+Tear Down.
+Set Up.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session0
+======= UNAUTHORIZED STATE TEST =======.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 0
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Started requestAccess
+信息: Moving from STARTED state to PENDING state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 2
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Pending radiusDenied
+信息: Moving from PENDING state to UNAUTHORIZED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 4
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine deleteIdentifier
+信息: Freeing up 0
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State start
+警告: START transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 4
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 0
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State requestAccess
+警告: REQUEST ACCESS transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 4
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State radiusAccepted
+警告: AUTHORIZE ACCESS transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 4
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine deleteIdentifier
+信息: Freeing up 0
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State radiusDenied
+警告: DENY ACCESS transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 4
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Unauthorized logoff
+信息: Moving from UNAUTHORIZED state to IDLE state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 0
+Tear Down.
+Set Up.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session0
+======= BASIC =======.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 0
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Started requestAccess
+信息: Moving from STARTED state to PENDING state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 2
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Pending radiusAccepted
+信息: Moving from PENDING state to AUTHORIZED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 3
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine deleteIdentifier
+信息: Freeing up 0
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Authorized logoff
+信息: Moving from AUTHORIZED state to IDLE state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 0
+Tear Down.
+Set Up.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session0
+======= PENDING STATE TEST (DENIED) =======.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 0
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Started requestAccess
+信息: Moving from STARTED state to PENDING state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 2
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State logoff
+警告: LOGOFF transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 2
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State start
+警告: START transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 2
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State requestAccess
+警告: REQUEST ACCESS transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 2
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Pending radiusDenied
+信息: Moving from PENDING state to UNAUTHORIZED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 4
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine deleteIdentifier
+信息: Freeing up 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State radiusAccepted
+警告: AUTHORIZE ACCESS transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 4
+Tear Down.
+Set Up.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine <init>
+信息: Creating a new state machine for session0
+======= STARTED STATE TEST =======.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Idle start
+信息: Moving from IDLE state to STARTED state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 0
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State radiusAccepted
+警告: AUTHORIZE ACCESS transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine deleteIdentifier
+信息: Freeing up 0
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State radiusDenied
+警告: DENY ACCESS transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State logoff
+警告: LOGOFF transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.State start
+警告: START transition from this state is not allowed.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 1
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine createIdentifier
+信息: Assigning identifier 0
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.Started requestAccess
+信息: Moving from STARTED state to PENDING state.
+七月 24, 2015 9:39:39 上午 org.onosproject.aaa.StateMachine next
+信息: Current State 2
+Tear Down.
