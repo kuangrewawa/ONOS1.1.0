@@ -1,8 +1,0 @@
-七月 24, 2015 9:39:48 上午 org.onosproject.routing.bgp.BgpSessionManager activate
-信息: BgpSessionManager started
-七月 24, 2015 9:39:48 上午 org.onosproject.routing.bgp.BgpSessionManager activate
-信息: BgpSessionManager started
-七月 24, 2015 9:39:48 上午 org.onosproject.routing.bgp.BgpSessionManager activate
-信息: BgpSessionManager started
-七月 24, 2015 9:39:48 上午 org.onosproject.routing.bgp.BgpSessionManager activate
-信息: BgpSessionManager started
