@@ -1,0 +1,5 @@
+export ONOS_NIC=10.0.3.*
+export OC1="10.0.3.11"
+export OCI="10.0.3.11"
+export ONOS_FEATURES="webconsole,onos-rest,onos-gui,onos-api,onos-core,onos-cli,onos-openflow"
+export ONOS_USER="sdn"
